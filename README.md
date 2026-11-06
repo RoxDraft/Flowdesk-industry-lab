@@ -14,6 +14,12 @@
 
 สิทธิ์เข้าถึงเว็บ Sites และสิทธิ์เข้าถึง GitHub เป็นคนละส่วนกัน การนำโค้ดขึ้น GitHub ไม่เปลี่ยนสิทธิ์เว็บหรือเผยแพร่เวอร์ชันใหม่โดยอัตโนมัติ
 
+## ภาษา / Languages
+
+กด **English** ที่มุมขวาบนเพื่อสลับเป็นภาษาอังกฤษ และกด **ไทย** เพื่อกลับ ระบบจำภาษาบนอุปกรณ์นี้ การเปลี่ยนภาษาไม่ล้างรายการขายหรือค่าทดลอง และไม่แปลข้อความที่ผู้ใช้บันทึกเอง
+
+Click **English** at the top right, or **ไทย** to switch back. The browser remembers your choice. Orders, experiment settings, and user-entered notes are preserved. Amounts remain in Thai baht. Translations are bundled locally; no external translation service is used.
+
 ## ความสามารถ
 
 - POS จำลอง: เพิ่มรายการ ส่วนลด สมาชิก ตรวจความพร้อมก่อนยืนยัน และยกเลิกรายการเพื่อคืนสต็อก
@@ -59,6 +65,7 @@ node test-camera.mjs
 | dist/index.html | โครงหน้าเว็บ |
 | dist/styles.css | รูปแบบและหน้าจอมือถือ |
 | dist/app.js | หน้าจอและการโต้ตอบ |
+| dist/i18n.mjs | ข้อความอังกฤษและการจำภาษา / English UI catalogue and language preference |
 | dist/core.mjs | ข้อมูลตั้งต้น POS และ SOP |
 | dist/ab.mjs | สูตรทดลองข้อเสนอสมาชิก |
 | dist/camera.mjs | สถิติกล้อง/POS จำลอง และสูตรทดลองปรับร้าน |
