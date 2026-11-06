@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="th"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#18252b"><meta name="description" content="ทดลอง POS และ SOP สำหรับร้านอาหาร ค้าปลีก ร้านบริการ และโรงงาน ด้วยข้อมูลสมมติ"><title>Flowdesk — POS & SOP Industry Lab</title><link rel="stylesheet" href="styles.css"><script src="app.js" type="module"></script></head>
+<body>
+<div class="app-shell">
+ <aside class="sidebar">
+  <a class="brand" href="#" aria-label="Flowdesk หน้าหลัก"><span class="brand-symbol">f<span></span></span><span>flowdesk<small>INDUSTRY LAB</small></span></a>
+  <div class="workspace-tag"><span class="workspace-icon">F</span><div>พื้นที่ทดลองของคุณ<small>ธุรกิจหลายอุตสาหกรรม</small></div><span class="dot"></span></div>
+  <div class="nav-caption">WORKSPACE</div><nav id="main-nav" aria-label="เมนูหลัก"></nav>
+  <div class="side-note"><span class="mini-icon" id="side-note-icon"></span><strong>เริ่มจากการลองขายหนึ่งรายการ</strong><p>เพิ่มสินค้า ตรวจ SOP แล้วดูข้อมูลที่เปลี่ยนไปในภาพรวม</p><button class="side-link" id="tour-button">แนะนำการทดลอง <span>↗</span></button></div>
+  <div class="side-bottom"><span class="avatar">ธ</span><div>ทีมทดลองธุรกิจ<small>ผู้จัดการสาขา · บัญชีสมมติ</small></div></div>
+ </aside>
+ <div class="main-shell">
+  <header class="topbar"><div class="breadcrumbs">Industry Lab <span>/</span> <strong id="breadcrumb">จุดขายและรับงาน</strong></div><div class="top-actions"><span class="demo-pill"><span></span> ข้อมูลสมมติ</span><button class="icon-button" id="reset-button" title="ล้างการทดลอง" aria-label="ล้างการทดลอง"></button></div></header>
+  <main>
+   <section class="page-heading"><div><div class="eyebrow">ONE WORKSPACE, DIFFERENT WORKFLOWS</div><h1>จากหน้าร้าน ถึงงานที่เสร็จจริง<span>.</span></h1><p>ลองเชื่อมการขาย ขั้นตอนทำงาน และข้อมูลลูกค้าในธุรกิจของคุณ</p></div><button id="export-button" class="button button-white"><span id="export-icon"></span> ส่งออกข้อมูลทดลอง</button></section>
+   <section class="industry-switcher" id="industry-switcher" aria-label="เลือกอุตสาหกรรม"></section>
+   <div class="context-line"><div><span class="live-dot"></span><strong id="business-name"></strong><span class="separator">/</span><span id="branch-name"></span></div><span id="context-label">บันทึกเฉพาะในเบราว์เซอร์นี้</span></div>
+   <div id="view"></div>
+   <footer>ต้นแบบเชิงโต้ตอบ · ไม่มีการรับเงินจริงหรือส่งแคมเปญจริง · ใช้ข้อมูลสมมติเท่านั้น <span>Flowdesk / 2026</span></footer>
+  </main>
+ </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="modal"><div id="modal-content"></div></dialog>
+</body></html>
