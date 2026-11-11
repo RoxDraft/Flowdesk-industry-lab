@@ -7,6 +7,6 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "start": "node serve.mjs",
-    "test": "node test-core.mjs && node test-ab.mjs && node test-camera.mjs && node test-resilience.mjs && node test-comparison.mjs"
+    "test": "node test-core.mjs && node test-ab.mjs && node test-camera.mjs && node test-resilience.mjs && node test-comparison.mjs && node test-verticals.mjs"
   }
 }
