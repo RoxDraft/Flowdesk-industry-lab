@@ -6,6 +6,19 @@
 
 **โปรเจกต์นี้พัฒนาและเขียนโค้ดโดย GPT ผ่าน OpenAI Codex ตามแนวคิด ความต้องการ และคำแนะนำของเจ้าของโปรเจกต์** โดย GPT-6.1 Sol ช่วยออกแบบหน้าจอ เขียนโปรแกรม สร้างข้อมูลสมมติ และจัดทำการทดสอบ เจ้าของโปรเจกต์เป็นผู้กำหนดทิศทางและขอบเขตการใช้งาน
 
+## Public demo / เว็บสาธิตสาธารณะ
+
+- ไทย: https://roxdraft.github.io/Flowdesk-industry-lab/?lang=th
+- English: https://roxdraft.github.io/Flowdesk-industry-lab/?lang=en
+- อุปกรณ์ 3D และ Tech stack: https://roxdraft.github.io/Flowdesk-industry-lab/?lang=th#equipment
+- 3D equipment and stack: https://roxdraft.github.io/Flowdesk-industry-lab/?lang=en#equipment
+
+หน้า 3D หมุน ซูม และเลือกอุปกรณ์ 10 ชนิดได้ แยกหน้าร้าน–หลังร้าน พร้อมพอร์ต เส้นทางข้อมูล และข้อเสนอ Tech stack สำหรับระบบจริง โมเดลเป็นรูปทรงตัวอย่าง ไม่ใช่แบบติดตั้งหรือการเชื่อมต่อจริง
+
+The 3D page offers 10 selectable devices, orbit/zoom, front/back-of-house filters, logical data links and proposed production technologies. Models are illustrative, not equipment replicas or installation plans.
+
+GitHub Pages publishes static demo assets from the `gh-pages` branch. Source files live in `main/dist`. It does not run server APIs, databases, actual payments or device drivers. Browser trial data is specific to each site origin.
+
 ## ทดลองใช้งาน
 
 - เว็บเดิมที่เผยแพร่แบบส่วนตัว: https://flowdesk-pos-sop-lab.sappydrift2.chatgpt.site/
@@ -66,6 +79,7 @@ node test-camera.mjs
 | dist/styles.css | รูปแบบและหน้าจอมือถือ |
 | dist/app.js | หน้าจอและการโต้ตอบ |
 | dist/i18n.mjs | ข้อความอังกฤษและการจำภาษา / English UI catalogue and language preference |
+| dist/equipment.mjs | โมเดลอุปกรณ์ 3D จุดเชื่อมต่อ และ Tech stack |
 | dist/core.mjs | ข้อมูลตั้งต้น POS และ SOP |
 | dist/ab.mjs | สูตรทดลองข้อเสนอสมาชิก |
 | dist/camera.mjs | สถิติกล้อง/POS จำลอง และสูตรทดลองปรับร้าน |

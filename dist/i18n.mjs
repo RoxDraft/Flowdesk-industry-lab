@@ -832,9 +832,10 @@ export const ENGLISH={
   "นอกจาก": "besides"
 };
 Object.assign(ENGLISH,{'ออเดอร์ทั้งหมด':'All orders','ออเดอร์ใหม่':'New order','รายการขายใหม่':'New sale','ใบงานใหม่':'New job','งานทั้งหมด':'All jobs','รายการทั้งหมด':'All transactions'});
-const FULL_TEXT={'ขั้นตอน SOP':'SOP workflows','ทดลอง A/B':'A/B experiments','เลือกเมนู':'Choose menu items','เลือกสินค้า':'Choose products','เลือกบริการ':'Choose a service'};
+const FULL_TEXT={'อุปกรณ์ 3D และระบบ':'3D equipment & stack','ขั้นตอน SOP':'SOP workflows','ทดลอง A/B':'A/B experiments','เลือกเมนู':'Choose menu items','เลือกสินค้า':'Choose products','เลือกบริการ':'Choose a service'};
 const LANGUAGE_KEY='flowdesk-language-v1';
 let language='th';try{if(localStorage.getItem(LANGUAGE_KEY)==='en')language='en';}catch{}
+const requestedLanguage=new URLSearchParams(location.search).get('lang');if(requestedLanguage==='en'||requestedLanguage==='th'){language=requestedLanguage;try{localStorage.setItem(LANGUAGE_KEY,language);}catch{}}
 const originals=new WeakMap(),attributes=new WeakMap();
 const thaiPattern=/[\u0e00-\u0e7f]+(?:[ \t]+[\u0e00-\u0e7f]+)*/g;
 const escapePattern=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
