@@ -27,6 +27,12 @@ GitHub Pages publishes static demo assets from the `gh-pages` branch. Source fil
 
 สิทธิ์เข้าถึงเว็บ Sites และสิทธิ์เข้าถึง GitHub เป็นคนละส่วนกัน การนำโค้ดขึ้น GitHub ไม่เปลี่ยนสิทธิ์เว็บหรือเผยแพร่เวอร์ชันใหม่โดยอัตโนมัติ
 
+## Animated data flow / แอนิเมชันข้อมูลไหล
+
+หน้า 3D เลือกเหตุการณ์การขาย รับสินค้า เวลาบริการ สถิติกล้อง และอุณหภูมิได้ มีปุ่มเล่น/พัก ปรับความเร็ว และกดดูคำอธิบาย POS, ERP, CRM/CDP และ A/B ทั้งไทย/อังกฤษ สถิติกล้องไม่ไหลไปสร้างตัวตนลูกค้า
+
+The 3D page animates sales, stock, service, anonymous traffic and temperature routes. Play/pause, speed controls and clickable POS/ERP/CRM-CDP/A-B destinations work in both languages. Dots are synthetic logical messages, not real network activity or proof of incremental profit. Reduced-motion users start paused.
+
 ## ภาษา / Languages
 
 กด **English** ที่มุมขวาบนเพื่อสลับเป็นภาษาอังกฤษ และกด **ไทย** เพื่อกลับ ระบบจำภาษาบนอุปกรณ์นี้ การเปลี่ยนภาษาไม่ล้างรายการขายหรือค่าทดลอง และไม่แปลข้อความที่ผู้ใช้บันทึกเอง
