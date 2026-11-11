@@ -33,6 +33,12 @@ GitHub Pages publishes static demo assets from the `gh-pages` branch. Source fil
 
 The 3D page animates sales, stock, service, anonymous traffic and temperature routes. Play/pause, speed controls and clickable POS/ERP/CRM-CDP/A-B destinations work in both languages. Dots are synthetic logical messages, not real network activity or proof of incremental profit. Reduced-motion users start paused.
 
+## Failure and recovery lab / เน็ตหลุดและอุปกรณ์ขัดข้อง
+
+หน้า 3D มีสถานการณ์เน็ตหลุด เครื่องพิมพ์ จอครัว และผลชำระเงินที่ยังไม่ทราบ ใช้ชุดข้อมูลสมมติ 4 ผู้สนใจซื้อ แสดงคิวพัก รหัสคงเดิม ACK การส่งซ้ำและการตัดรายการซ้ำ พร้อมผลจากสมมติฐานต่อบริการและส่วนเกินหลังค่าใช้จ่ายเพิ่ม ผลนี้ไม่ใช่ข้อสรุปเชิงเหตุจาก A/B
+
+The 3D failure lab covers connectivity, printer, kitchen display and unknown payment outcomes. It illustrates pending queues, lost acknowledgments, stable event IDs, replay deduplication and assumption-based contribution/service impacts. The queue is an in-memory simulation, not a production durable outbox. Recovery does not recreate abandoned demand or charge a payment again.
+
 ## ภาษา / Languages
 
 กด **English** ที่มุมขวาบนเพื่อสลับเป็นภาษาอังกฤษ และกด **ไทย** เพื่อกลับ ระบบจำภาษาบนอุปกรณ์นี้ การเปลี่ยนภาษาไม่ล้างรายการขายหรือค่าทดลอง และไม่แปลข้อความที่ผู้ใช้บันทึกเอง
