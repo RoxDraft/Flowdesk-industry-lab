@@ -39,6 +39,12 @@ The 3D page animates sales, stock, service, anonymous traffic and temperature ro
 
 The 3D failure lab covers connectivity, printer, kitchen display and unknown payment outcomes. It illustrates pending queues, lost acknowledgments, stable event IDs, replay deduplication and assumption-based contribution/service impacts. The queue is an in-memory simulation, not a production durable outbox. Recovery does not recreate abandoned demand or charge a payment again.
 
+## Three-stage dashboard and equipment reuse
+
+แดชบอร์ดเปรียบเทียบฐานก่อนขัดข้อง ภาพเมื่อเริ่มขัดข้อง และสถานะหลังกู้คืนของชุดลูกค้าสมมติขนาดเท่ากัน แยกยอดส่งมอบจากยอดระบบกลาง คอลัมน์หลังระบุชัดเมื่อยังเป็นค่าคาดการณ์ เกณฑ์พนักงานอิงสถานะปัจจุบัน ไม่อิงค่าคาดการณ์ มีตารางอุปกรณ์ร่วมและเฉพาะทางสำหรับร้านอาหาร ค้าปลีก ร้านบริการ และโรงงาน พร้อมเอกสารผู้ผลิต
+
+The dashboard compares equal-sized synthetic cohorts; columns are not additive chronological windows. Projected recovery is labelled and does not drive staff advice. Gates check backlog, payment outcomes, wait <= 10 minutes and manager review for contribution decline >20%. Thresholds are illustrative. The equipment comparison distinguishes shared device families from specialized requirements; the restaurant 3D models do not automatically become a factory installation.
+
 ## ภาษา / Languages
 
 กด **English** ที่มุมขวาบนเพื่อสลับเป็นภาษาอังกฤษ และกด **ไทย** เพื่อกลับ ระบบจำภาษาบนอุปกรณ์นี้ การเปลี่ยนภาษาไม่ล้างรายการขายหรือค่าทดลอง และไม่แปลข้อความที่ผู้ใช้บันทึกเอง
